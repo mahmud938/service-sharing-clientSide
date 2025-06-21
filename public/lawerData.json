@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "serviceName": "Legal Consultation",
+    "serviceDescription": "General legal advice for individuals and small businesses.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/legal-consultation.jpg",
+    "providerImage": "https://i.ibb.co/YFx6FnBK/lawer1.jpg",
+    "providerName": "Sarah Johnson, Esq.",
+    "servicePrice": "$120"
+  },
+  {
+    "id": 2,
+    "serviceName": "Family Law Services",
+    "serviceDescription": "Support with divorce, custody, and child support cases.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/family-law.jpg",
+    "providerImage": "https://i.ibb.co/NR59qWD/lawer2.jpg",
+    "providerName": "Michael Lee, Esq.",
+    "servicePrice": "$150"
+  },
+  {
+    "id": 3,
+    "serviceName": "Criminal Defense",
+    "serviceDescription": "Representation for misdemeanor and felony charges.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/criminal-defense.jpg",
+    "providerImage": "https://i.ibb.co/Rk9n7F1M/lawer3.jpg",
+    "providerName": "Alex Carter, Esq.",
+    "servicePrice": "$250"
+  },
+  {
+    "id": 4,
+    "serviceName": "Property Law Assistance",
+    "serviceDescription": "Legal help with real estate transactions and disputes.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/property-law.jpg",
+    "providerImage": "https://i.ibb.co/0jCJ1MGx/lawer4.jpg",
+    "providerName": "Ayesha Verma, Esq.",
+    "servicePrice": "$200"
+  },
+  {
+    "id": 5,
+    "serviceName": "Business Law Advisory",
+    "serviceDescription": "Contracts, compliance, and startup legal guidance.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/business-law.jpg",
+    "providerImage": "https://i.ibb.co/9HNNZxcN/lawer8.jpg",
+    "providerName": "Robert King, Esq.",
+    "servicePrice": "$180"
+  },
+  {
+    "id": 6,
+    "serviceName": "Immigration Services",
+    "serviceDescription": "Visa applications, green cards, and legal immigration help.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/immigration-law.jpg",
+    "providerImage": "https://i.ibb.co/9HcGh3pQ/lawer5.jpg",
+    "providerName": "Linda Park, Esq.",
+    "servicePrice": "$160"
+  },
+  {
+    "id": 7,
+    "serviceName": "Tax Law Support",
+    "serviceDescription": "Help with tax disputes, audits, and IRS negotiations.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/tax-law.jpg",
+    "providerImage": "https://i.ibb.co/Pv3FJwy6/lawer7.jpg",
+    "providerName": "James Chen, Esq.",
+    "servicePrice": "$140"
+  },
+  {
+    "id": 8,
+    "serviceName": "Employment Law Help",
+    "serviceDescription": "Workplace disputes, wrongful termination, and contracts.",
+    "viewDetailButton": "View Detail",
+    "serviceImage": "images/services/employment-law.jpg",
+    "providerImage": "https://i.ibb.co/8nYgrMxf/lawer6.jpg",
+    "providerName": "Nina Patel, Esq.",
+    "servicePrice": "$170"
+  }
+]
