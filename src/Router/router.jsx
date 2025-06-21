@@ -14,6 +14,9 @@ import MyApplication from '../jobApply/myApplications/MyApplication';
 import HotService from '../pages/Home/HotService';
 import ServiceCard from '../Shared/ServiceCard';
 import ErrorPage from '../ErrorPage/ErrorPage';
+import Manage from '../Dashbord/Manage';
+import BookService from '../Dashbord/BookService';
+import ServiceToDo from '../Dashbord/ServiceToDo';
 
 
 
@@ -36,8 +39,17 @@ const router = createBrowserRouter([
         path: '/signIn',
         Component: SignIn
     },
-    
-  
+    {
+      path: '/manage',
+      Component: Manage
+    },
+    {path: '/booksService',
+      Component: BookService
+    },
+    {
+      path: '/serviceToDo',
+      Component: ServiceToDo
+    },
     {
       path: '/lawers/:id',
       Component: LawyerDetails,

@@ -1,8 +1,9 @@
 import React, { use } from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext/AuthContext';
 import Swal from 'sweetalert2';
 import userIcon from '../../src/assets/icons/userIcon.png'
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -27,7 +28,19 @@ const handleSignOut = () => {
     const links = <>
    
      <li><NavLink to='/'>Home</NavLink></li>
-    <li><NavLink to='/'>services</NavLink></li>
+ <li>
+  <ScrollLink
+    to="service"
+    smooth={true}
+    duration={500}
+    offset={-70}
+   
+  >
+    Services
+  </ScrollLink>
+</li>
+
+
      {
       user && <>
       <li><NavLink to="/myApplications">My Applications</NavLink></li>
@@ -39,9 +52,9 @@ const handleSignOut = () => {
   <div tabIndex={0} role="button  btn-ghost " >Dashboard</div>
   <ul tabIndex={0} className="menu dropdown-content bg-base-200 rounded-box  z-1 mt-4 w-52 p-2 shadow-sm">
             <li><NavLink to='/addJobs'>Add Services</NavLink></li>
-            <li>Manage Service</li>
-            <li>Booked-Services</li>
-            <li>Service-To-Do</li>
+            <li><NavLink to='/manage'>Manage Service</NavLink></li>
+            <li><NavLink to='/booksService'> Booked-Services</NavLink></li>
+            <li><NavLink to='/serviceToDo'>  Service-To-Do</NavLink></li>
   </ul>
 </div>
           
